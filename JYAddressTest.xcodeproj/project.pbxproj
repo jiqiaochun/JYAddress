@@ -15,6 +15,13 @@
 		5D0C4D9D1D113546002B0727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C4D9B1D113546002B0727 /* LaunchScreen.storyboard */; };
 		5D0C4DA81D113546002B0727 /* JYAddressTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4DA71D113546002B0727 /* JYAddressTestTests.m */; };
 		5D0C4DB31D113546002B0727 /* JYAddressTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4DB21D113546002B0727 /* JYAddressTestUITests.m */; };
+		5D0C4DC41D11359D002B0727 /* JYAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4DC21D11359D002B0727 /* JYAreaViewController.m */; };
+		5D0C4DC51D11359D002B0727 /* zh_CN.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C4DC31D11359D002B0727 /* zh_CN.json */; };
+		5D0C4DCA1D113821002B0727 /* JYUserEditMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4DC81D113821002B0727 /* JYUserEditMsgCell.m */; };
+		5D0C4DCB1D113821002B0727 /* JYUserEditMsgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C4DC91D113821002B0727 /* JYUserEditMsgCell.xib */; };
+		5D0C4DCE1D113935002B0727 /* UIColor+JYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4DCD1D113935002B0727 /* UIColor+JYColor.m */; };
+		5D0C4DD11D1139D3002B0727 /* UIImage+JYImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4DD01D1139D3002B0727 /* UIImage+JYImageTool.m */; };
+		5D0C4DD41D113CEA002B0727 /* JYMyAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C4DD31D113CEA002B0727 /* JYMyAddressViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		5D0C4DAE1D113546002B0727 /* JYAddressTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYAddressTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0C4DB21D113546002B0727 /* JYAddressTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYAddressTestUITests.m; sourceTree = "<group>"; };
 		5D0C4DB41D113546002B0727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0C4DC11D11359D002B0727 /* JYAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAreaViewController.h; sourceTree = "<group>"; };
+		5D0C4DC21D11359D002B0727 /* JYAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAreaViewController.m; sourceTree = "<group>"; };
+		5D0C4DC31D11359D002B0727 /* zh_CN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zh_CN.json; sourceTree = "<group>"; };
+		5D0C4DC71D113821002B0727 /* JYUserEditMsgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYUserEditMsgCell.h; sourceTree = "<group>"; };
+		5D0C4DC81D113821002B0727 /* JYUserEditMsgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYUserEditMsgCell.m; sourceTree = "<group>"; };
+		5D0C4DC91D113821002B0727 /* JYUserEditMsgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYUserEditMsgCell.xib; sourceTree = "<group>"; };
+		5D0C4DCC1D113935002B0727 /* UIColor+JYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JYColor.h"; sourceTree = "<group>"; };
+		5D0C4DCD1D113935002B0727 /* UIColor+JYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JYColor.m"; sourceTree = "<group>"; };
+		5D0C4DCF1D1139D3002B0727 /* UIImage+JYImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JYImageTool.h"; sourceTree = "<group>"; };
+		5D0C4DD01D1139D3002B0727 /* UIImage+JYImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYImageTool.m"; sourceTree = "<group>"; };
+		5D0C4DD21D113CEA002B0727 /* JYMyAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMyAddressViewController.h; sourceTree = "<group>"; };
+		5D0C4DD31D113CEA002B0727 /* JYMyAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMyAddressViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +120,13 @@
 		5D0C4D8C1D113546002B0727 /* JYAddressTest */ = {
 			isa = PBXGroup;
 			children = (
+				5D0C4DC01D11359D002B0727 /* address */,
 				5D0C4D901D113546002B0727 /* AppDelegate.h */,
 				5D0C4D911D113546002B0727 /* AppDelegate.m */,
 				5D0C4D931D113546002B0727 /* ViewController.h */,
 				5D0C4D941D113546002B0727 /* ViewController.m */,
+				5D0C4DD21D113CEA002B0727 /* JYMyAddressViewController.h */,
+				5D0C4DD31D113CEA002B0727 /* JYMyAddressViewController.m */,
 				5D0C4D961D113546002B0727 /* Main.storyboard */,
 				5D0C4D991D113546002B0727 /* Assets.xcassets */,
 				5D0C4D9B1D113546002B0727 /* LaunchScreen.storyboard */,
@@ -138,6 +160,31 @@
 				5D0C4DB41D113546002B0727 /* Info.plist */,
 			);
 			path = JYAddressTestUITests;
+			sourceTree = "<group>";
+		};
+		5D0C4DC01D11359D002B0727 /* address */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C4DC61D113821002B0727 /* View */,
+				5D0C4DC11D11359D002B0727 /* JYAreaViewController.h */,
+				5D0C4DC21D11359D002B0727 /* JYAreaViewController.m */,
+				5D0C4DC31D11359D002B0727 /* zh_CN.json */,
+				5D0C4DCC1D113935002B0727 /* UIColor+JYColor.h */,
+				5D0C4DCD1D113935002B0727 /* UIColor+JYColor.m */,
+				5D0C4DCF1D1139D3002B0727 /* UIImage+JYImageTool.h */,
+				5D0C4DD01D1139D3002B0727 /* UIImage+JYImageTool.m */,
+			);
+			path = address;
+			sourceTree = "<group>";
+		};
+		5D0C4DC61D113821002B0727 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C4DC71D113821002B0727 /* JYUserEditMsgCell.h */,
+				5D0C4DC81D113821002B0727 /* JYUserEditMsgCell.m */,
+				5D0C4DC91D113821002B0727 /* JYUserEditMsgCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0C4DC51D11359D002B0727 /* zh_CN.json in Resources */,
 				5D0C4D9D1D113546002B0727 /* LaunchScreen.storyboard in Resources */,
+				5D0C4DCB1D113821002B0727 /* JYUserEditMsgCell.xib in Resources */,
 				5D0C4D9A1D113546002B0727 /* Assets.xcassets in Resources */,
 				5D0C4D981D113546002B0727 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0C4DC41D11359D002B0727 /* JYAreaViewController.m in Sources */,
 				5D0C4D951D113546002B0727 /* ViewController.m in Sources */,
+				5D0C4DD11D1139D3002B0727 /* UIImage+JYImageTool.m in Sources */,
 				5D0C4D921D113546002B0727 /* AppDelegate.m in Sources */,
+				5D0C4DD41D113CEA002B0727 /* JYMyAddressViewController.m in Sources */,
 				5D0C4D8F1D113546002B0727 /* main.m in Sources */,
+				5D0C4DCE1D113935002B0727 /* UIColor+JYColor.m in Sources */,
+				5D0C4DCA1D113821002B0727 /* JYUserEditMsgCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

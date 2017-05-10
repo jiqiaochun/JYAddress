@@ -8,15 +8,36 @@
 
 #import "ViewController.h"
 
+#import "JYMyAddressViewController.h"
+
+
 @interface ViewController ()
+
+@property (nonatomic,strong) UIButton *btn;
 
 @end
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    self.btn = btn;
+}
+
+- (void)btnClick:(UIButton *)btn{
+    JYMyAddressViewController *vc = [[JYMyAddressViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
